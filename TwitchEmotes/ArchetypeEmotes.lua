@@ -65,11 +65,13 @@ TwitchEmotes_defaultpack["PepeYellowCard"] = "Interface\\AddOns\\TwitchEmotes\\E
 TwitchEmotes_defaultpack["PepeRedCard"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeRedCard.tga:32:32"
 TwitchEmotes_defaultpack["SadCatThumbsUp"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\SadCatThumbsUp.tga:32:32"
 TwitchEmotes_defaultpack["MadCat"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MadCat.tga:32:32"
+TwitchEmotes_defaultpack["WhatIsLove"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\WhatIsLove.tga:32:32"
 
 -- Emote animation data.
 TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeRuns.tga"] = {["nFrames"] = 6, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=256, ["framerate"] = 16}
 TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeHowdy.tga"] = {["nFrames"] = 12, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=512, ["framerate"] = 12}
 TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MontyJAM.tga"] = {["nFrames"] = 4, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=128, ["framerate"] = 12}
+TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\WhatIsLove.tga"] = {["nFrames"] = 6, ["frameWidth"] = 64, ["frameHeight"] = 64, ["imageWidth"]=64, ["imageHeight"]=512, ["framerate"] = 12}
 
 
 -- Emote name references.
@@ -137,6 +139,7 @@ TwitchEmotes_emoticons["PepeYellowCard"] = "PepeYellowCard"
 TwitchEmotes_emoticons["PepeRedCard"] = "PepeRedCard"
 TwitchEmotes_emoticons["SadCatThumbsUp"] = "SadCatThumbsUp"
 TwitchEmotes_emoticons["MadCat"] = "MadCat"
+TwitchEmotes_emoticons["WhatIsLove"] = "WhatIsLove"
 
 -- Emote category - MAX 45 EMOTES PER CATEGORY.
 TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = {  "Archetype 1", 
