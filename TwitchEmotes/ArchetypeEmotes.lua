@@ -149,7 +149,7 @@ TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = {  "Archetyp
 }
 
 TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = { "Archetype 2", 
-	"PepeBusiness", "WICKEDLEAVE", "peepoEnter", "PepeLootBan", "Tont", "peepoBath",
+	"PepeBusiness", "WICKEDLEAVE", "peepoEnter", "PepeLootBan", "peepoBath",
 	"peepoPog", "peepoCouchLurk", "peepoStream", "peepoSweg", "PepeGreenCard",
 	"PepeYellowCard", "PepeRedCard", "SadCatThumbsUp", "MadCat"
 }
