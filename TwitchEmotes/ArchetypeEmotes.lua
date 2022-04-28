@@ -55,7 +55,7 @@ TwitchEmotes_defaultpack["PepeRuns"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\
 TwitchEmotes_defaultpack["PepeHowdy"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeHowdy.tga:28:28"
 TwitchEmotes_defaultpack["MontyJAM"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MontyJAM.tga:28:28"
 TwitchEmotes_defaultpack["peepoBath"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\peepoBath.tga:36:36"
-TwitchEmotes_defaultpack["peepoPog"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\peepoPog.tga:36:36"
+TwitchEmotes_defaultpack["peepoPog"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\peepoPog.tga:32:32"
 TwitchEmotes_defaultpack["peepoCouchLurk"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\peepoCouchLurk.tga:36:36"
 TwitchEmotes_defaultpack["peepoStream"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\peepoStream.tga:36:36"
 TwitchEmotes_defaultpack["peepoSweg"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\peepoSweg.tga:36:36"
@@ -63,8 +63,10 @@ TwitchEmotes_defaultpack["PepeGreenCard"] = "Interface\\AddOns\\TwitchEmotes\\Em
 TwitchEmotes_defaultpack["PepeYellowCard"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeYellowCard.tga:32:32"
 TwitchEmotes_defaultpack["PepeRedCard"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeRedCard.tga:32:32"
 TwitchEmotes_defaultpack["SadCatThumbsUp"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\SadCatThumbsUp.tga:32:32"
-TwitchEmotes_defaultpack["MadCat"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MadCat.tga:32:32"
+TwitchEmotes_defaultpack["MadCat"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MadCat.tga:28:28"
 TwitchEmotes_defaultpack["WhatIsLove"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\WhatIsLove.tga:32:32"
+TwitchEmotes_defaultpack["dbMad"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\dbMad.tga:28:28"
+TwitchEmotes_defaultpack["dbShook"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\dbShook.tga:28:56"
 
 -- Emote animation data.
 TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeRuns.tga"] = {["nFrames"] = 6, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=256, ["framerate"] = 16}
@@ -138,6 +140,8 @@ TwitchEmotes_emoticons["PepeRedCard"] = "PepeRedCard"
 TwitchEmotes_emoticons["SadCatThumbsUp"] = "SadCatThumbsUp"
 TwitchEmotes_emoticons["MadCat"] = "MadCat"
 TwitchEmotes_emoticons["WhatIsLove"] = "WhatIsLove"
+TwitchEmotes_emoticons["dbMad"] = "dbMad"
+TwitchEmotes_emoticons["dbShook"] = "dbShook"
 
 -- Emote category - MAX 45 EMOTES PER CATEGORY.
 TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = {  "Archetype 1", 
@@ -151,9 +155,9 @@ TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = {  "Archetyp
 TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = { "Archetype 2", 
 	"PepeBusiness", "WICKEDLEAVE", "peepoEnter", "PepeLootBan", "peepoBath",
 	"peepoPog", "peepoCouchLurk", "peepoStream", "peepoSweg", "PepeGreenCard",
-	"PepeYellowCard", "PepeRedCard", "SadCatThumbsUp", "MadCat"
+	"PepeYellowCard", "PepeRedCard", "SadCatThumbsUp", "MadCat", "dbMad", "dbShook"
 }
 
 TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = { "Archetype GIFs", 
-	"PepeRuns", "PepeHowdy", "MontyJAM"
+	"PepeRuns", "PepeHowdy", "MontyJAM", "WhatIsLove"
 }
