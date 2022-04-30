@@ -69,13 +69,14 @@ TwitchEmotes_defaultpack["dbMad"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Ar
 TwitchEmotes_defaultpack["dbShook"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\dbShook.tga:28:56"
 TwitchEmotes_defaultpack["Chickenge"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\Chickenge.tga:28:28"
 TwitchEmotes_defaultpack["PepeBait"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeBait.tga:28:28"
+TwitchEmotes_defaultpack["MontyDeal"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MontyDeal.tga:28:28"
 
 -- Emote animation data.
-TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeRuns.tga"] = {["nFrames"] = 6, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=256, ["framerate"] = 16}
-TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeHowdy.tga"] = {["nFrames"] = 12, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=512, ["framerate"] = 12}
-TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MontyJAM.tga"] = {["nFrames"] = 13, ["frameWidth"] = 64, ["frameHeight"] = 64, ["imageWidth"]=64, ["imageHeight"]=1024, ["framerate"] = 13}
-TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\WhatIsLove.tga"] = {["nFrames"] = 6, ["frameWidth"] = 64, ["frameHeight"] = 64, ["imageWidth"]=64, ["imageHeight"]=512, ["framerate"] = 12}
-
+TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeRuns.tga"] = {["nFrames"] = 6, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 256, ["framerate"] = 16}
+TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeHowdy.tga"] = {["nFrames"] = 12, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 512, ["framerate"] = 12}
+TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MontyJAM.tga"] = {["nFrames"] = 13, ["frameWidth"] = 64, ["frameHeight"] = 64, ["imageWidth"] = 64, ["imageHeight"] = 1024, ["framerate"] = 13}
+TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\WhatIsLove.tga"] = {["nFrames"] = 6, ["frameWidth"] = 64, ["frameHeight"] = 64, ["imageWidth"] = 64, ["imageHeight"] = 512, ["framerate"] = 12}
+TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MontyDeal.tga"] = {["nFrames"] = 8, ["frameWidth"] = 64, ["frameHeight"] = 64, ["imageWidth"] = 64, ["imageHeight"] = 512, ["framerate"] = 8}
 
 -- Emote name references.
 TwitchEmotes_emoticons["danW"] = "danW"
@@ -146,6 +147,7 @@ TwitchEmotes_emoticons["dbMad"] = "dbMad"
 TwitchEmotes_emoticons["dbShook"] = "dbShook"
 TwitchEmotes_emoticons["Chickenge"] = "Chickenge"
 TwitchEmotes_emoticons["PepeBait"] = "PepeBait"
+TwitchEmotes_emoticons["MontyDeal"] = "MontyDeal"
 
 -- Emote category - MAX 45 EMOTES PER CATEGORY.
 TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = {  "Archetype 1", 
@@ -164,5 +166,5 @@ TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = { "Archetype
 }
 
 TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = { "Archetype GIFs", 
-	"PepeRuns", "PepeHowdy", "MontyJAM", "WhatIsLove"
+	"PepeRuns", "PepeHowdy", "MontyJAM", "WhatIsLove", "MontyDeal"
 }
