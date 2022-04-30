@@ -72,7 +72,7 @@ TwitchEmotes_defaultpack["Chickenge"] = "Interface\\AddOns\\TwitchEmotes\\Emotes
 -- Emote animation data.
 TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeRuns.tga"] = {["nFrames"] = 6, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=256, ["framerate"] = 16}
 TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeHowdy.tga"] = {["nFrames"] = 12, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=512, ["framerate"] = 12}
-TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MontyJAM.tga"] = {["nFrames"] = 4, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=128, ["framerate"] = 12}
+TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MontyJAM.tga"] = {["nFrames"] = 13, ["frameWidth"] = 64, ["frameHeight"] = 64, ["imageWidth"]=64, ["imageHeight"]=1024, ["framerate"] = 13}
 TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\WhatIsLove.tga"] = {["nFrames"] = 6, ["frameWidth"] = 64, ["frameHeight"] = 64, ["imageWidth"]=64, ["imageHeight"]=512, ["framerate"] = 12}
 
 
