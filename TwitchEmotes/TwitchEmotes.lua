@@ -308,6 +308,16 @@ function Emoticons_OnEvent(self, event, ...)
             }
         end
 
+        local dateTime = C_DateAndTime.GetCurrentCalendarTime()
+        -- print(d.monthDay, d.month)
+        -- print(format("The time is %02d:%02d, %s, %d %s %d", d.hour, d.minute, CALENDAR_WEEKDAY_NAMES[d.weekday], d.monthDay, CALENDAR_FULLDATE_MONTH_NAMES[d.month], d.year))
+        if (dateTime.monthDay==4 and dateTime.month==5) and (dateTime.hour >= 10) then --and dateTime.hour <= 21) then
+            TwitchEmotes_emoticons["Sayrahs"] = "peepoSith"
+            TwitchEmotes_emoticons["Sayramage"] = "peepoSith"
+            TwitchEmotes_emoticons["Sayradh"] = "peepoSith"
+        end
+        -- Time event emotes
+
         TwitchEmotesAnimatorUpdateFrame = CreateFrame("Frame", "TwitchEmotesAnimator_EventFrame", UIParent)
         Emoticons_EnableAnimatedEmotes(Emoticons_Settings["ENABLE_ANIMATEDEMOTES"])
 
