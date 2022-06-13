@@ -3,7 +3,7 @@ local LDBIcon = LibStub("LibDBIcon-1.0")
 local LibDD = LibStub:GetLibrary("LibUIDropDownMenu-4.0")
 
 Emoticons_Settings = {
-    --["CHAT_MSG_OFFICER"] = true, -- 1
+    ["CHAT_MSG_OFFICER"] = true, -- 1
     ["CHAT_MSG_GUILD"] = true, -- 2
     ["CHAT_MSG_PARTY"] = true, -- 3
     ["CHAT_MSG_PARTY_LEADER"] = true, -- dont count, tie to 3
@@ -37,7 +37,7 @@ Emoticons_Settings = {
 };
 
 local origsettings = {
-    --["CHAT_MSG_OFFICER"] = true,
+    ["CHAT_MSG_OFFICER"] = true,
     ["CHAT_MSG_GUILD"] = true,
     ["CHAT_MSG_PARTY"] = true,
     ["CHAT_MSG_PARTY_LEADER"] = true,
