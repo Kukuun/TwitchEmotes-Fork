@@ -70,6 +70,10 @@ TwitchEmotes_defaultpack["dbShook"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\
 TwitchEmotes_defaultpack["Chickenge"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\Chickenge.tga:28:28"
 TwitchEmotes_defaultpack["PepeBait"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeBait.tga:28:28"
 TwitchEmotes_defaultpack["MontyDeal"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MontyDeal.tga:28:28"
+TwitchEmotes_defaultpack["DrakeNope"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\DrakeNope.tga:28:28"
+TwitchEmotes_defaultpack["DrakeYep"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\DrakeYep.tga:28:28"
+TwitchEmotes_defaultpack["Wokegemad"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\Wokegemad.tga:28:28"
+TwitchEmotes_defaultpack["MadgeJuice"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\MadgeJuice.tga:28:28"
 
 -- Emote animation data.
 TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archetype\\PepeRuns.tga"] = {["nFrames"] = 6, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 256, ["framerate"] = 16}
@@ -148,6 +152,10 @@ TwitchEmotes_emoticons["dbShook"] = "dbShook"
 TwitchEmotes_emoticons["Chickenge"] = "Chickenge"
 TwitchEmotes_emoticons["PepeBait"] = "PepeBait"
 TwitchEmotes_emoticons["MontyDeal"] = "MontyDeal"
+TwitchEmotes_emoticons["DrakeNope"] = "DrakeNope"
+TwitchEmotes_emoticons["DrakeYep"] = "DrakeYep"
+TwitchEmotes_emoticons["Wokegemad"] = "Wokegemad"
+TwitchEmotes_emoticons["MadgeJuice"] = "MadgeJuice"
 
 -- Emote category - MAX 45 EMOTES PER CATEGORY.
 TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = {  "Archetype 1", 
@@ -162,7 +170,7 @@ TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = { "Archetype
 	"PepeBusiness", "WICKEDLEAVE", "peepoEnter", "PepeLootBan", "peepoBath",
 	"peepoPog", "peepoCouchLurk", "peepoStream", "peepoSweg", "PepeGreenCard",
 	"PepeYellowCard", "PepeRedCard", "SadCatThumbsUp", "MadCat", "dbMad", "dbShook",
-	"Chickenge", "PepeBait"
+	"Chickenge", "PepeBait", "DrakeNope", "DrakeYep", "Wokegemad", "MadgeJuice"
 }
 
 TwitchEmotes_dropdown_options[#TwitchEmotes_dropdown_options + 1] = { "Archetype GIFs", 
