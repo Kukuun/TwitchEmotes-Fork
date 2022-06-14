@@ -86,7 +86,7 @@ TwitchEmotes_animation_metadata["Interface\\AddOns\\TwitchEmotes\\Emotes\\Archet
 TwitchEmotes_emoticons["danW"] = "danW"
 TwitchEmotes_emoticons["darniasCoke"] = "darniasCoke"
 TwitchEmotes_emoticons["getMad"] = "getMad"
-TwitchEmotes_emoticons["gQt"] = "gqt"
+TwitchEmotes_emoticons["gQt"] = "gQt"
 TwitchEmotes_emoticons["kalliW"] = "kalliW"
 TwitchEmotes_emoticons["kaztoS"] = "kaztoS"
 TwitchEmotes_emoticons["kingCool"] = "kingCool"
